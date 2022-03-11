@@ -8,14 +8,21 @@ This Smartphone application is for marketing of Plusultra Pharma in Germany and 
 # Development/Build Environment
 
   * OS: Scientific Linux 7.6
-  * Platform: Ionic 3.20.0, Cordova 8.0.0
+  * Platform: Node.js v16.14.0, Ionic v5.4.16, Cordova v11.0.0
   * Android: v6, v5, v.4
   * iOS: ?
 
 
 # How to build
 
+      ## Installing environments
       $ ionic cordova platform add android
+      $ ionic cordova plugin add cordova-plugin-inappbrowser
+      $ npm install --save @ionic-native/in-app-browser@4
+      $ ionic cordova plugin add cordova-plugin-firebase
+      $ npm install --save @ionic-native/firebase@4
+
+      ## Building Debug Application
       $ ionic cordova build android
         => platforms/android/app/build/outputs/apk/debug/app-debug.apk
        
