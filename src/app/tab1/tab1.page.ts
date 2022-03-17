@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { InAppBrowser } from '@awesome-cordova-plugins/in-app-browser/ngx';
 
 @Component({
   selector: 'app-tab1',
@@ -7,6 +8,11 @@ import { Component } from '@angular/core';
 })
 export class Tab1Page {
 
-  constructor() {}
-
+  //constructor() {}
+  constructor(private inAppBrowser: InAppBrowser) { }
+    openWebpage(url: string){
+    	url = "https://www.nobelpharma-us.com"
+	this.inAppBrowser.create(url, '_self')
+  }
+  
 }
