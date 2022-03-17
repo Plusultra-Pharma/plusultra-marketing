@@ -11,8 +11,8 @@ export class Tab1Page {
   //constructor() {}
   constructor(private inAppBrowser: InAppBrowser) { }
     openWebpage(url: string){
-    	url = "https://www.nobelpharma-us.com"
-	this.inAppBrowser.create(url, '_self')
+        url = "https://www.nobelpharma-us.com"
+        this.inAppBrowser.create(url, '_self')
   }
-  
+
 }

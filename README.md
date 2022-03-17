@@ -18,12 +18,15 @@ This Smartphone application is for marketing of Plusultra Pharma in Germany and 
         $ sudo npm install -g native-run cordova-res
         $ sudo npm install -g @angular/cli
 
+# Android SDK
+
+        $  
 
 # How to build
 
       ## Installing environments
-      $ ionic cordova platform add android
-	  $ ng add @ionic/cordova-builders
+      $ ionic cordova platform add android@8.0.0
+      $ ng add @ionic/cordova-builders
       $ ionic cordova plugin add cordova-plugin-inappbrowser
       $ npm install --save @awesome-cordova-plugins/in-app-browser
       $ npm install --save @awesome-cordova-plugins/core
