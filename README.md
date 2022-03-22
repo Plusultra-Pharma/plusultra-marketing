@@ -38,11 +38,16 @@ This Smartphone application is for marketing of Plusultra Pharma in Germany and 
 
   Finally, creating an emulator on AVD (https://developer.android.com/studio/run/managing-avds).
 
+* Patching SDK 33
+
+     $ cd Android/Sdk/build-tools/33.0.0-rc2
+	 $ ln -vs d8 dx; cd lib; ln -vs d8.jar dx.jar
+
   
 ## How to build the application
 
       ## Installing environments
-      $ ionic cordova platform add android@8.0.0
+      $ ionic cordova platform add android@11.0.0
       $ ng add @ionic/cordova-builders
       $ ionic cordova plugin add cordova-plugin-inappbrowser
       $ npm install --save @awesome-cordova-plugins/in-app-browser
