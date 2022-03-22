@@ -2,13 +2,14 @@
 
 This Smartphone application is for marketing of Plusultra Pharma in Germany and UK. This application makes the products' up-to-date information quickly visible to the customers.
 
-  ![Application](img/ionic_test.jpg)
+  ![Application Overview](img/ionic_test.jpg)
 
 
-# Development/Build Environment
+# Development
+## Development/Build Environment
 
   * OS: Ubuntu 20.04
-  * Platform: Node.js v14.19.0, Ionic v5.4.16, Cordova v11.0.0
+  * Platform: Node.js v12.22.11, Ionic v5.4.16, Cordova v11.0.0
   * Android: v6, v5, v.4
   * iOS: ?
 
@@ -18,11 +19,27 @@ This Smartphone application is for marketing of Plusultra Pharma in Germany and 
         $ sudo npm install -g native-run cordova-res
         $ sudo npm install -g @angular/cli
 
-# Android SDK
 
-        $  
+## Installing Android SDK or Android Studio
+* Download Android Studio: https://developer.android.com/studio/index.html#downloads
+        $ tar zxvf android-studio-2021.1.1.22-linux.tar.gz
 
-# How to build
+* Reference: Android Studio with Ionic https://ionicframework.com/docs/v5/developing/android
+
+* Configuring Android Emulator
+
+  ![Installing Android SDK](img/android_studio_sdk.jpg)
+  First of all, installing Android SDK.
+  
+  ![Android SDK Cli](img/android_sdk_cli.jpg)
+  Secondly, installing Android SDK Command Line Tools
+
+  ![Android Emulator](img/android_emulator.jpg)
+
+  Finally, creating an emulator on AVD (https://developer.android.com/studio/run/managing-avds).
+
+  
+## How to build the application
 
       ## Installing environments
       $ ionic cordova platform add android@8.0.0
@@ -35,9 +52,15 @@ This Smartphone application is for marketing of Plusultra Pharma in Germany and 
       ## Building Debug Application
       $ ionic cordova build android
         => platforms/android/app/build/outputs/apk/debug/app-debug.apk
-       
 
-# Launching test instance
+
+
+## Launching test instance
 
       $ ionic serve -d -b -a -s -p 11111
+
+
+## Testing in emulatr
+     
+	  $ ionic cordova run android -l
 
