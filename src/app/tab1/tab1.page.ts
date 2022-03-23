@@ -8,10 +8,9 @@ import { InAppBrowser } from '@awesome-cordova-plugins/in-app-browser/ngx';
 })
 export class Tab1Page {
 
-  //constructor() {}
   constructor(private inAppBrowser: InAppBrowser) { }
     openWebpage(url: string){
-        url = "https://www.nobelpharma-us.com"
+        //url = "https://www.nobelpharma-us.com"
         this.inAppBrowser.create(url, '_self')
   }
 

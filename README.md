@@ -52,7 +52,10 @@ This Smartphone application is for marketing of Plusultra Pharma in Germany and 
       $ ionic cordova plugin add cordova-plugin-inappbrowser
       $ npm install --save @awesome-cordova-plugins/in-app-browser
       $ npm install --save @awesome-cordova-plugins/core
-	  
+
+      ## Updating splash screen
+	  $ npm install cordova-res
+	  $ ionic cordova resources
 
       ## Building Debug Application
       $ ionic cordova build android
