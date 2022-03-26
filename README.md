@@ -47,13 +47,13 @@ This Smartphone application is for marketing of Plusultra Pharma in Germany and 
 ## How to build the application
 
       ## Installing environments
-      $ ionic cordova platform add android@11.0.0
+      $ ionic cordova platform add android@10.0.0
       $ ng add @ionic/cordova-builders
       $ ionic cordova plugin add cordova-plugin-inappbrowser
       $ npm install --save @awesome-cordova-plugins/in-app-browser
       $ npm install --save @awesome-cordova-plugins/core
 
-      ## Updating splash screen
+      ## Updating splash screen (edit resources/*.png)
 	  $ npm install cordova-res
 	  $ ionic cordova resources
 
