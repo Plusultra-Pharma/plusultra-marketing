@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { InAppBrowser } from '@awesome-cordova-plugins/in-app-browser/ngx';
 
 @Component({
   selector: 'app-about',
@@ -7,8 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutPage implements OnInit {
 
-  constructor() { }
-
+  constructor(private inAppBrowser: InAppBrowser) { }
+  openWebpage(url: string){
+        this.inAppBrowser.create(url, '_self')
+  }
+  
   ngOnInit() {
   }
 

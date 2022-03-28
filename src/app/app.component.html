@@ -15,9 +15,8 @@
         </ion-list>
 
         <ion-list id="labels-list">
-
-          <ion-item *ngFor="let label of labels" lines="none">
-            <ion-icon slot="start" ios="cog" md="cog"></ion-icon>
+          <ion-item button *ngFor="let label of labels" lines="none" (click)="openModal()">
+            <ion-icon slot="start" ios="flag" md="flag"></ion-icon>
             <ion-label>{{ label }}</ion-label>
           </ion-item>
         </ion-list>

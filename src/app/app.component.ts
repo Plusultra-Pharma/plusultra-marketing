@@ -1,3 +1,6 @@
+import { ImpressumComponent } from './impressum/impressum.component';
+import { ModalController } from '@ionic/angular';
+
 import { Component } from '@angular/core';
 
 @Component({
@@ -11,8 +14,16 @@ export class AppComponent {
     { title: 'Product', url: '/product', icon: 'gift' },
     { title: 'About', url: '/about', icon: 'people' },
     { title: 'Market', url: '/market', icon: 'pricetags' },
-    { title: 'Impressum', url: '/impressum', icon: 'flag' },
   ];
-  public labels = ['Configuration'];
-  constructor() {}
+  public labels = ['Impressum'];
+
+  //constructor() {}
+  constructor(private modalCtrl: ModalController) { }
+
+  async openModal() {
+              const modal = await this.modalCtrl.create({
+                component: ImpressumComponent
+              });
+  await modal.present();
+  }
 }
