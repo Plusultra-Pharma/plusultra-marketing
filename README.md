@@ -44,8 +44,8 @@ This Smartphone application is for marketing products in Plusultra Pharma in Ger
 	 $ ln -vs d8 dx; cd lib; ln -vs d8.jar dx.jar
 
 ## Ionic Tutorials
-	* Ionic Icons: https://ionicframework.com/docs/v3/ionicons/
-	* Ionic Modal: https://www.youtube.com/watch?v=8Sv2Nubc5MQ
+* Ionic Icons: <https://ionicframework.com/docs/v3/ionicons/>
+* Ionic Modal: <https://www.youtube.com/watch?v=8Sv2Nubc5MQ>
 
 ## How to build the application
 
@@ -87,7 +87,7 @@ Clicking the top-left button can open the side menu. One can select one of the m
 
   ![Side Menu](img/01_sidemenu.png)
   
-### Company Tab
+### Company Screen
 The "Company" menu corresponds to the company website's top category, "Home". Once one clicks the "Company" menu, the application shows the main screen of "Company Cards", which are the links to the web pages under the "Home" category.
 
   ![Company Screen](img/02_company.png)
@@ -98,7 +98,7 @@ A "Company Card" links to a webpage. So, one can immediately see the webpage.
 
   ![Company Webpage](img/04_page.png)
   
-### About Tab
+### About Screen
 The "Company" menu corresponds to the company website's top category, "About".
 
   
