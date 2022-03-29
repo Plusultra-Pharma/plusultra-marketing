@@ -111,3 +111,4 @@ The "Company" menu corresponds to the company website's top category, "About".
 The Impressum page contains our company information and responsible people and license information of this application.
 
 
+# Change History
