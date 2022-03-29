@@ -2,7 +2,7 @@
 
 This Smartphone application is for marketing products in Plusultra Pharma in Germany and UK. This application makes the products' up-to-date information quickly visible to the customers.
 
-  ![Application Overview](img/ionic_test.jpg)
+  ![Application Overview](img/ionic_mobile.png)
 
 
 # Development
