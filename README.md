@@ -21,27 +21,30 @@ This Smartphone application is for marketing products in Plusultra Pharma in Ger
 
 
 ## Installing Android SDK or Android Studio
+### Android Studio
 * Download Android Studio: <https://developer.android.com/studio/index.html#downloads>
+
         $ tar zxvf android-studio-2021.1.1.22-linux.tar.gz
 
 * Reference: Android Studio with Ionic: <https://ionicframework.com/docs/v5/developing/android>
 
-* Configuring Android Emulator
+### Android Emulator
+1. Configuring Android Emulator
 
   ![Installing Android SDK](img/android_studio_sdk.jpg)
-  First of all, installing Android SDK.
+2. Installing Android SDK.
   
   ![Android SDK Cli](img/android_sdk_cli.jpg)
-  Secondly, installing Android SDK Command Line Tools
+3. Installing Android SDK Command Line Tools
 
   ![Android Emulator](img/android_emulator.jpg)
 
-  Finally, creating an emulator on AVD (<https://developer.android.com/studio/run/managing-avds>).
+4. creating an emulator on AVD (<https://developer.android.com/studio/run/managing-avds>).
 
-* Patching SDK 33
+5. Patching SDK 33
 
-     $ cd Android/Sdk/build-tools/33.0.0-rc2
-	 $ ln -vs d8 dx; cd lib; ln -vs d8.jar dx.jar
+        $ cd Android/Sdk/build-tools/33.0.0-rc2
+    	$ ln -vs d8 dx; cd lib; ln -vs d8.jar dx.jar
 
 ## Ionic Tutorials
 * Ionic Icons: <https://ionicframework.com/docs/v3/ionicons/>
