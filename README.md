@@ -110,5 +110,10 @@ The "Company" menu corresponds to the company website's top category, "About".
 ## Impressum
 The Impressum page contains our company information and responsible people and license information of this application.
 
+  ![Impressum](img/04_impressum.png)
 
 # Change History
+* Ver. 0.1 - Side menu. Cordova v11.0.0, Ionic v5.4.16. Android only. Using Nobelpharma US website as a test-bed.
+
+# License
+ * Apache 2.0 License
