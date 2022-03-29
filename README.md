@@ -1,6 +1,6 @@
 # Plusultra Pharma - Marketing Application
 
-This Smartphone application is for marketing of Plusultra Pharma in Germany and UK. This application makes the products' up-to-date information quickly visible to the customers.
+This Smartphone application is for marketing products in Plusultra Pharma in Germany and UK. This application makes the products' up-to-date information quickly visible to the customers.
 
   ![Application Overview](img/ionic_test.jpg)
 
@@ -21,10 +21,10 @@ This Smartphone application is for marketing of Plusultra Pharma in Germany and 
 
 
 ## Installing Android SDK or Android Studio
-* Download Android Studio: https://developer.android.com/studio/index.html#downloads
+* Download Android Studio: <https://developer.android.com/studio/index.html#downloads>
         $ tar zxvf android-studio-2021.1.1.22-linux.tar.gz
 
-* Reference: Android Studio with Ionic https://ionicframework.com/docs/v5/developing/android
+* Reference: Android Studio with Ionic: <https://ionicframework.com/docs/v5/developing/android>
 
 * Configuring Android Emulator
 
@@ -36,14 +36,17 @@ This Smartphone application is for marketing of Plusultra Pharma in Germany and 
 
   ![Android Emulator](img/android_emulator.jpg)
 
-  Finally, creating an emulator on AVD (https://developer.android.com/studio/run/managing-avds).
+  Finally, creating an emulator on AVD (<https://developer.android.com/studio/run/managing-avds>).
 
 * Patching SDK 33
 
      $ cd Android/Sdk/build-tools/33.0.0-rc2
 	 $ ln -vs d8 dx; cd lib; ln -vs d8.jar dx.jar
 
-  
+## Ionic Tutorials
+	* Ionic Icons: https://ionicframework.com/docs/v3/ionicons/
+	* Ionic Modal: https://www.youtube.com/watch?v=8Sv2Nubc5MQ
+
 ## How to build the application
 
       ## Installing environments
@@ -62,13 +65,46 @@ This Smartphone application is for marketing of Plusultra Pharma in Germany and 
         => platforms/android/app/build/outputs/apk/debug/app-debug.apk
 
 
+## Testing Application
 
-## Launching test instance
+   * Launching test instance
 
-      $ ionic serve -d -b -a -s -p 11111
+        $ ionic serve -d -b -a -s -p 11111
 
 
-## Testing in emulatr
+   * Testing in emulator
      
-	  $ ionic cordova run android -l
+    	$ ionic cordova run android -l
+
+
+
+## Usage of the Marketing Application
+The structure of the marketing application is like our company website. But, we can see the web pages using DocList Check and any authentication. We can put any preferable pages to the application preliminary.
+
+
+### Side Menu
+Clicking the top-left button can open the side menu. One can select one of the menus. 
+
+  ![Side Menu](img/01_sidemenu.png)
+  
+### Company Tab
+The "Company" menu corresponds to the company website's top category, "Home". Once one clicks the "Company" menu, the application shows the main screen of "Company Cards", which are the links to the web pages under the "Home" category.
+
+  ![Company Screen](img/02_company.png)
+
+
+### Web Page
+A "Company Card" links to a webpage. So, one can immediately see the webpage.
+
+  ![Company Webpage](img/04_page.png)
+  
+### About Tab
+The "Company" menu corresponds to the company website's top category, "About".
+
+  
+  ![About Screen](img/03_about.png)
+  
+## Impressum
+The Impressum page contains our company information and responsible people and license information of this application.
+
 
