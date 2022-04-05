@@ -9,7 +9,7 @@ This Smartphone application is for marketing products in Plusultra Pharma in Ger
 ## Development/Build Environment
 
   * OS: Ubuntu 20.04
-  * Platform: Node.js v12.22.11, Ionic v5.4.16, Cordova v11.0.0
+  * Platform: Node.js v12.22.11, Ionic CLI v6.19.0, Cordova v11.0.0
   * Android: v6, v5, v.4
   * iOS: ?
 
