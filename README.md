@@ -114,6 +114,7 @@ The Impressum page contains our company information and responsible people and l
 
 # Change History
 * Ver. 0.1 - Side menu. Cordova v11.0.0, Ionic v5.4.16. Android only. Using Nobelpharma US website as a test-bed.
+* Ver. 0.2 - Using Plusultra GmbH Website
 
 # License
  * Apache 2.0 License
