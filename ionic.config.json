@@ -1,7 +1,7 @@
 {
-  "name": "marketing",
+  "name": "plusultra-sales-app",
+  "type": "angular",
   "integrations": {
-    "cordova": {}
-  },
-  "type": "angular"
+    "capacitor": {}
+  }
 }

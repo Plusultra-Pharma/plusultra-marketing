@@ -9,7 +9,7 @@ This Smartphone application is for marketing products in Plusultra Pharma in Ger
 ## Development/Build Environment
 
   * OS: Ubuntu 20.04
-  * Platform: Node.js v12.22.11, Ionic CLI v6.19.0, Cordova v11.0.0
+  * Platform: Node.js v12.22.11, Ionic CLI v6.19.0, Capacitor v3.4.3
   * Android: v6, v5, v.4
   * iOS: ?
 
@@ -53,31 +53,22 @@ This Smartphone application is for marketing products in Plusultra Pharma in Ger
 ## How to build the application
 
       ## Installing environments
-      $ ionic cordova platform add android@10.0.0
-      $ ng add @ionic/cordova-builders
-      $ ionic cordova plugin add cordova-plugin-inappbrowser
-      $ npm install --save @awesome-cordova-plugins/in-app-browser
-      $ npm install --save @awesome-cordova-plugins/core
+	  $ npm install --save ion2-calendar@next moment
+	  $ npm install @capacitor/browser
 
       ## Updating splash screen (edit resources/*.png)
 	  $ npm install cordova-res
 	  $ ionic cordova resources
 
-      ## Building Debug Application
-      $ ionic cordova build android
-        => platforms/android/app/build/outputs/apk/debug/app-debug.apk
+      ## Building Environment
+      $ ionic cap sync
 
 
 ## Testing Application
 
-   * Launching test instance
-
-        $ ionic serve -d -b -a -s -p 11111
-
-
    * Testing in emulator
      
-    	$ ionic cordova run android -l
+    	$ ionic cap run android -l --external
 
 
 
@@ -89,6 +80,19 @@ The structure of the marketing application is like our company website. But, we 
 Clicking the top-left button can open the side menu. One can select one of the menus. 
 
   ![Side Menu](img/01_sidemenu.png)
+
+### Sales
+  ![Sales](img/10_sales.png)
+  
+### Customer Info
+  ![Customer Info](img/11_customer.png)
+
+
+## Daily Update
+  ![Daily Update](img/12_daily-update.png)
+  
+## Tutorial
+  ![Tutorial](img/13_tutorial.png)
   
 ### Company Screen
 The "Company" menu corresponds to the company website's top category, "Home". Once one clicks the "Company" menu, the application shows the main screen of "Company Cards", which are the links to the web pages under the "Home" category.
@@ -99,7 +103,7 @@ The "Company" menu corresponds to the company website's top category, "Home". On
 ### Web Page
 A "Company Card" links to a webpage. So, one can immediately see the webpage.
 
-  ![Company Webpage](img/04_page.png)
+  ![Company Webpage](img/05_page.png)
   
 ### About Screen
 The "Company" menu corresponds to the company website's top category, "About".
@@ -115,6 +119,7 @@ The Impressum page contains our company information and responsible people and l
 # Change History
 * Ver. 0.1 - Side menu. Cordova v11.0.0, Ionic v5.4.16. Android only. Using Nobelpharma US website as a test-bed.
 * Ver. 0.2 - Using Plusultra GmbH Website
+* Ver. 0.3 - Using Capacitor framework and added many new menus such as Sales, Congress Info, Customer Info and so on
 
 # License
  * Apache 2.0 License
